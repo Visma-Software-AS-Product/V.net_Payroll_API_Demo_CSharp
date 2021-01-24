@@ -14,9 +14,9 @@ namespace Visma.net_Payroll_Demo_Application
                 {
                     request.Content = new FormUrlEncodedContent(new Dictionary<string, string> {
                         { "grant_type", "client_credentials" },
-                        { "client_id", "vsas_payroll_demo_app" },
-                        { "client_secret", "NjjMtTILZBhbvMfTiwChMtZSSnDWCFoOQgUgJCZsaOfcXCeLQKeTFtSZytqoBcDN" },
-                        { "tenant_id", "a4586720-500d-11eb-9852-0638767d04b5" },
+                        { "client_id", "[YOUR_CLIENT_ID]" },
+                        { "client_secret", "[YOUR_CLIENT_SECRET]" },
+                        { "tenant_id", "[YOUR_TENANT_ID]" },
                         { "scope", "payroll:employees:read" }
                     });
 
